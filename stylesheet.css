@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    background-color: #334
+}
+
+#skills-container {
+    height: 400px;
+    width: 80%;
+    position: relative;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+#skills-container #lines {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#skills-container #lines p {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: #aaa;
+}
+
+#skills-container #lines .skill-level {
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    background-color: #999;
+    z-index: 1;
+}
+
+#skills-container #lines #one {
+    top: 50px;
+}
+
+#skills-container #lines #two {
+    top: 125px;
+}
+
+#skills-container #lines #three {
+    top: 200px;
+}
+
+#skills-container #lines #four {
+    top: 275px;
+    height: 3px;
+}
+
+#skills-container #bars {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+#skills-container #bars .skill-bar {
+    width: 50px;
+    z-index: 2;
+    bottom: 125px;
+    position: absolute;
+}
+
+#skills-container #bars .skill-bar#bar0 {
+    left: 25px;
+    background-color: #E5D9F2;
+}
+
+#skills-container #bars .skill-bar#bar1 {
+    left: 125px;
+    background-color: #F5EFFF;
+}
+
+#skills-container #bars .skill-bar#bar2 {
+    left: 225px;
+    background-color: #CDC1FF;
+}
+
+#skills-container #bars .skill-bar#bar3 {
+    left: 325px;
+    background-color: #A594F9;
+}
+
+#skills-container #bars .skill-bar#bar4 {
+    left: 425px;
+    background-color: #7371FC;
+}
+
+#skills-container #bars .skill-bar#bar5 {
+    left: 525px;
+    background-color: #BBADFF;
+}
+
+#skills-container #bars .skill-bar#bar6 {
+    left: 625px;
+    background-color: #DAB6FC;
+}
+
+#skills-container #bars .skill-bar#bar7 {
+    left: 725px;
+    background-color: #A594F9;
+}
+
+#skills-container ul {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+#skills-container ul li {
+    display: inline-block;
+    transform: rotate(90deg)translateY(50%);
+    line-height: 100px;
+    width: 96px;
+    color: #fff;
+}
